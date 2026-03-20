@@ -1,6 +1,6 @@
 # java-todolist
 
-# ToDo List API - Spring Boot 🚀
+# ToDo List API - Spring Boot 
 
 Esta é uma API RESTful de gerenciamento de tarefas (To-Do List) desenvolvida durante o curso de Spring Boot da **Rocketseat**. O projeto foca em conceitos sólidos de Back-end, como autenticação customizada, persistência de dados e segurança de senhas.
 
@@ -14,7 +14,7 @@ Esta é uma API RESTful de gerenciamento de tarefas (To-Do List) desenvolvida du
 * **Lombok** (Produtividade e código limpo)
 * **Maven** (Gerenciador de dependências)
 
-## 🔐 Funcionalidades e Conceitos Aplicados
+## Funcionalidades e Conceitos Aplicados
 
 * **Autenticação Basic Auth:** Implementação de um `Filter` customizado para interceptar requisições e validar credenciais.
 * **Criptografia:** Uso do algoritmo BCrypt para garantir que as senhas não sejam salvas em texto simples no banco de dados.
@@ -22,7 +22,7 @@ Esta é uma API RESTful de gerenciamento de tarefas (To-Do List) desenvolvida du
 * **Validações:** Regras de negócio para impedir que tarefas sejam criadas com datas retroativas ou datas de término anteriores ao início.
 * **Update Parcial (PATCH):** Implementação de uma classe utilitária (`Utils`) para realizar o merge de dados, permitindo atualizar apenas campos específicos de uma tarefa sem sobrescrever os demais com nulo.
 
-## 🚀 Como Executar o Projeto
+## Como Executar o Projeto
 
 1. Clone o repositório:
    ```bash
@@ -38,7 +38,7 @@ mvn spring-boot:run
 
 4. A API estará disponível em http://localhost:8080.
 
-🧪 Endpoints Principais
+Endpoints Principais
 POST /users: Cadastro de novos usuários.
 
 POST /tasks: Criação de tarefas (Requer autenticação).
@@ -48,5 +48,3 @@ GET /tasks: Listagem de tarefas do usuário logado.
 PUT /tasks/{id}: Atualização completa de uma tarefa.
 
 PATCH /tasks/{id}: Atualização parcial de uma tarefa.
-
-Desenvolvido por Raphael Campean 👔
